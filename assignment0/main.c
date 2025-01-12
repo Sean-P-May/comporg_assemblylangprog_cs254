@@ -15,8 +15,11 @@ int factorial(const int number) {
 }
 
 int main(void) {
+    //prints header
     printf("N       N!\n");
     printf("----+-----\n");
+
+    // print n and n! side by side
     for (int i = 0; i <= 50; i++) {
         printf("%d       %d\n", i, factorial(i));
     }
